@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>About us</title>
+<link rel="stylesheet" type="text/css" href="AboutStyle.css"/>
+</head>
+
+<body>
+<table width="1222" height="1055" border="0" align="center">
+<tbody>
+</tbody>
+<tbody>
+  <tr>
+    <td height="49" colspan="7"><form id="form1" name="form1" method="post">
+      <div class="logo"><img src="Pictures/logo.png" width="200" height="41.625" alt=""/></div>
+      <input type="button" name="button" id="button" onClick="document.location='Sign up.html'" class = "b1" value="Sign up">
+      <input type="button" name="button2" id="button2" onClick="document.location='Login.html'" class = "b1" value="Log in">
+    </form></td>
+  </tr>
+  <tr>
+		  <td width="195" height="33">&nbsp;</td>
+		  <td width="152" align="center" bgcolor="#F1F1F1"><div class="tabs"><a href="index.html">Home</a></div></td>
+	  	  <td width="153" align="center" bgcolor="#F1F1F1"><div class="tabs"><a href="About us.html">About Us</a></div></td>
+		  <td width="167" align="center" bgcolor="#F1F1F1"><div class="tabs"><a href="Login.html">Pricing</a></div></td>
+		  <td width="156" align="center" bgcolor="#F1F1F1"><div class="tabs"><a href="Contact us.html">Contact us</a></div></td>
+		  <td width="166" align="center" bgcolor="#F1F1F1"><div class="tabs"><a href="LoginAccount.html">My account</a></div></td>
+		  <td width="197">&nbsp;</td>
+  </tr>
+  <tr bgcolor="#F1F1F1">
+    <td height="25" colspan="7" bgcolor="#FFFFFF">&nbsp;</td>
+  </tr>
+  <tr bgcolor="#F1F1F1">
+    <td height="35" colspan="7"><h2>About us</h2>
+      <p>The LakDew Bulk SMS solution is based on a powerful general-purpose text-messaging platform <strong><em>(DiaText</em></strong>) and General Purpose <br> Interface (GPI) developed by LakDew Technologies around the GSM Short Message Service (SMS).</p>
+      <p>Users will be given a web page where they would be able to type a 160 character message and then send it out to their clients or staff, through a <br>database collated by them. The number of messages sent and the timing of the transmission would depend solely on the company.</p>
+      <h3>Features</h3>
+      <ul>
+        <li>Capable of sending thousands of SMS in minutes. Eg:- 300 SMS per second</li>
+        <li>Branding: A personalized message ID. Eg:- Company name or short code (2222)</li>
+        <li>Confidentiality and security: Interface log in uses a single access username and password</li>
+        <li>Web based user accounts with a storage capacity, groups and address books</li>
+        <li>Group SMS: Send SMS to large groups</li>
+        <li>Connectivity: 24×7 service from any location</li>
+        <li>Scheduled Messaging</li>
+		</ul><br>
+		<div id="hedding"><p>Why SMS Marketing Is best?</p>
+      	<div class="p2"><input type="button" value="Cheack Hear..!" calss="b2" onclick="Gettxt()"></div>
+	  </div>
+		
+		<script>
+			function Gettxt() {
+			  const xhttp = new XMLHttpRequest();
+			  xhttp.onload = function() {
+				document.getElementById("hedding").innerHTML =
+				this.responseText;
+			  }
+			  xhttp.open("GET", "SMSBest.txt");
+			  xhttp.send();
+			}
+		</script>
+		
+      <p><img src="Pictures/n1.png" width="53%" height="381" alt="" class="center"/></p></td>
+  </tr>
+  <tr>
+    <td height="68" colspan="7" bgcolor="#464646"><div class="p1">
+      All Rights Reserved. © 2021 | LakDew
+      </div></td>
+  </tr>
+</tbody>
+<tbody>
+</tbody>
+</table>
+</body>
+</html>

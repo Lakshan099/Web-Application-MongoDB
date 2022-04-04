@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+div.tabs
+{
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"
+}
+
+.b2 {
+  width: 10%;
+  background-color: #0e0987;
+  color: white;
+  padding: 10px 10px;
+  margin: 3px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  bottom: 20px;
+  left: 950px;
+}
+
+.b2:hover 
+{
+  background-color: #0a00ff;
+}
+
+div.logo
+{
+	position: relative;
+	bottom: -20px;
+}
+
+a 
+{ 
+	text-decoration: none;
+	color: black;
+}
+
+a:hover
+{
+	color: #0a00ff;
+}
+
+div.label
+{
+	background-color: cadetblue;
+}
+
+p
+{
+	text-align: justify;
+  	text-justify: inter-word;
+	position: relative;	  
+	text-align:center;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+}
+
+div.p1
+{
+	color: white;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align:center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.b1 {
+  width: 10%;
+  background-color: #012b39;
+  color: white;
+  padding: 10px 10px;
+  margin: 3px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  bottom: 20px;
+  left: 550px;
+  top: -130px;
+}
+
+.b1:hover 
+{
+  background-color: #306273;
+}
+
+.b3 {
+  width: 10%;
+  background-color: #dc6d01;
+  color: white;
+  padding: 10px 10px;
+  margin: 3px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  bottom: 20px;
+  left: 655px;
+  top: -165px;
+}
+
+.b3:hover 
+{
+  background-color: #f28d2b;
+}
+
+.b4 {
+  width: 10%;
+  background-color: #007653;
+  color: white;
+  padding: 10px 10px;
+  margin: 3px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  bottom: 20px;
+  left: 40px;
+  top: -165px;
+}
+
+.b4:hover 
+{
+  background-color: #039268;
+}
+

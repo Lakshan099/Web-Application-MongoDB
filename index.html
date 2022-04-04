@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home</title>
+<link rel="stylesheet" type="text/css" href="StyleSheet.css"/>
+<script src="jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+<table width="1222" height="773" border="0" align="center">
+  <tbody>
+    <tr>
+      <td height="49" colspan="7">
+		  <form id="form1" name="form1" method="post">
+		  <div class="logo"><img src="Pictures/logo.png" width="200" height="41.625" alt=""/></div>
+          <input type="button" name="button" id="button" onclick="document.location='Sign up.html'" value="Sign up">
+          <input type="button" name="button2" id="button2" onclick="document.location='Login.html'" value="Log in">
+	    </form></td>
+    </tr>
+    <tr>
+		  <td width="195" height="33">&nbsp;</td>
+		  <td width="152" align="center" bgcolor="#F1F1F1"><div class="tabs"><a href="index.html">Home</a></div></td>
+	  	  <td width="153" align="center" bgcolor="#F1F1F1"><div class="tabs"><a href="About us.html">About Us</a></div></td>
+		  <td width="167" align="center" bgcolor="#F1F1F1"><div class="tabs"><a href="Login.html">Pricing</a></div></td>
+		  <td width="156" align="center" bgcolor="#F1F1F1"><div class="tabs"><a href="Contact us.html">Contact us</a></div></td>
+		  <td width="166" align="center" bgcolor="#F1F1F1"><div class="tabs"><a href="LoginAccount.html">My account</a></div></td>
+		  <td width="197">&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="378" colspan="7"><br><br><img src="Pictures/Cover.jpg" class="cover" width="1222" height="378" alt=""/><img src="Pictures/Cover2.jpg" class="cover" width="1222" height="378" alt=""/><img src="Pictures/Cover3.jpg" class="cover" width="1222" height="378" alt=""/></td>
+		
+		<script>
+			var myIndex = 0;
+			carousel();
+
+			function carousel() {
+			  var i;
+			  var x = document.getElementsByClassName("cover");
+			  for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";  
+			  }
+			  myIndex++;
+			  if (myIndex > x.length) {myIndex = 1}    
+			  x[myIndex-1].style.display = "block";  
+			  setTimeout(carousel, 3000);
+			}
+			
+			$(document).ready(function() {
+				
+				$("#button3").click(function(){
+        		$('html, body').animate({scrollTop:0}, 'slow');
+        		return false;
+				});
+				
+			});
+		</script>
+		
+    </tr>
+    <tr>
+      <td height="102">&nbsp;</td>
+      <td><img src="Pictures/dialog.png" width="135" height="67" alt=""/></td>
+      <td><img src="Pictures/mo1.jpg" width="154" height="87" alt=""/></td>
+      <td><img src="Pictures/airtel.jpg" width="161" height="75" alt=""/></td>
+      <td><img src="Pictures/Hutch_logo.svg.png" width="145" height="51" alt=""/></td>
+      <td><img src="Pictures/Etisalat_Sri_Lanka.jpg" width="145" height="65" alt=""/></td>
+	  <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td height="40" colspan="7" bgcolor="#F1F1F1"><p>&nbsp;</p>
+        <p>Strengthen your customer relationships by uniting communications across your entire business,from marketing and sales to customer service and operations.<br>Personalize every step of the customer journey with solutions like intelligent chatbots, custom account notifications, <br>a completely programmable cloud-based call center, and more.</p>
+      <p>&nbsp;</p>
+      <p><img src="Pictures/h1.png" width="900" height="563" alt="" /></p>
+      <p>There are many best practices small businesses can adopt when employing SMS marketing to reach out to their customers. With the rise of the digital age, the ability to transfer information has grown freely and quickly. To maximise the benefits of SMS marketing, it is important for businesses to identify the best practices of SMS marketing.<br><br>
+
+	Firstly, it is important to have the permission to send out text messages to customers. Otherwise, you will be deemed as spam, breaking laws and annoyance. This in turn can lead to a stained brand image. SMSes received by consumers should also have a clear and distinct call-to-action (CTA). Marketers have to understand that they need to clearly communicate to their customers what they have to do. It is also a good idea to treat your text subscribers differently to your other consumers. Try not to text out information that exists in your email campaigns or print ads to your text subscribers. Instead, reward them with content or offers that they can only get via text. SMS offers should also come with a specific expiration date and time. Phrases like “today only” or “10-hour sale” <br>or “expires at midnight” help increase the number of consumers signing up for the offer</p>
+      
+        <br><input type="button" name="button3" id="button3" value="Go to Top" class="btn">
+      </td>
+    </tr>
+    <tr>
+      <td height="68" colspan="7" bgcolor="#464646"><div class="p1"><p>All Rights Reserved. © 2021 | LakDew</p></div></td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

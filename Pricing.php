@@ -1,0 +1,59 @@
+<?php session_start(); 
+if(!isset($_SESSION["userName"]))
+{
+	header('Location:Pricing.php');
+}
+?>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Pricing</title>
+<link rel="stylesheet" type="text/css" href="PricingStyle.css"/>
+</head>
+
+<body>
+	
+<table width="1222" height="820" border="0" align="center">
+<tbody>
+</tbody>
+<tbody>
+  <tr>
+    <td height="49" colspan="7"><form id="form1" name="form1" method="post">
+      <div class="logo"><img src="Pictures/logo.png" width="200" height="41.625" alt=""/></div>
+      <input type="button" name="button" id="button" onClick="document.location='Sign up.html'" value="Sign up" class="b2">
+      <input type="button" name="button2" id="button2" onClick="document.location='Login.html'" value="Log in" class="b2">
+    </form></td>
+  </tr>
+  <tr>
+		  <td width="195" height="33">&nbsp;</td>
+		  <td width="152" align="center" bgcolor="#F1F1F1"><div class="tabs"><a href="index.html">Home</a></div></td>
+	  	  <td width="153" align="center" bgcolor="#F1F1F1"><div class="tabs"><a href="About us.html">About Us</a></div></td>
+		  <td width="167" align="center" bgcolor="#F1F1F1"><div class="tabs"><a href="Login.html">Pricing</a></div></td>
+		  <td width="156" align="center" bgcolor="#F1F1F1"><div class="tabs"><a href="Contact us.html">Contact us</a></div></td>
+		  <td width="166" align="center" bgcolor="#F1F1F1"><div class="tabs"><a href="Login.html">My account</a></div></td>
+		  <td width="197">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="32" colspan="7">&nbsp;</td>
+  </tr>
+  <tr bgcolor="#e6e6e6">
+    <td height="378" colspan="7"><img src="Pictures/smsp2.jpg" width="900.5" height="600.5" alt="" class="center"/>
+      <input type="button" name="button3" id="button3" value="Select" class="b1">
+	  <input type="button" name="button4" id="button4" value="Select" class="b3">
+	  <input type="button" name="button5" id="button5" value="Select" class="b4">
+	  </td>
+	  
+  </tr>
+  <tr>
+    <td height="68" colspan="7" bgcolor="#464646"><div class="p1">
+      <p>All Rights Reserved. © 2021 | LakDew</p>
+      </div></td>
+  </tr>
+</tbody>
+<tbody>
+</tbody>
+</table>
+	
+</body>
+</html>
